@@ -112,8 +112,11 @@ RetiRenderer::~RetiRenderer()
     if(!is_cam_user)
         delete cam;
 
+    /// NOPE. All meshes, or scene objects, for that matter, are Reticle user's responsibility
+    /*
     for(int i = 0; i < meshes.size(); i++)
         delete meshes[i];
+    */
 
     meshes.clear();
 

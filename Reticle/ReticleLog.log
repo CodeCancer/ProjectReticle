@@ -1,12 +1,16 @@
-[29-06-2017 00:19:01]    Log Opened
-[29-06-2017 00:19:01]    Loading file: /home/digumx/Dev/OpenGL/ProjectReticle/ReticleRenderer/Reticle-0.0.6a-linux/Reticle/Resources/Textures/default.tga
-[29-06-2017 00:19:01]    Initializing GLFW.
-[29-06-2017 00:19:01]    GLFW initialization complete.
-[29-06-2017 00:19:01]    Creating window
-[29-06-2017 00:19:01]    Created window
-[29-06-2017 00:19:01]    Initializing GLEW.
-[29-06-2017 00:19:01]    GLEW initialization complete.
-[29-06-2017 00:19:01]    Loading texture uniforms: 
-[29-06-2017 00:19:01]    :colorTexture:
-[29-06-2017 00:19:01]    Loading texture uniforms: 
-[29-06-2017 00:19:01]    :colorTexture:
+[17-07-2017 01:59:38]    Log Opened
+[17-07-2017 01:59:38]    Loading file: /mnt/data/git-repos/ProjectReticle/Reticle/Resources/Textures/default.tga
+[17-07-2017 01:59:38]    Initializing GLFW.
+[17-07-2017 01:59:38]    GLFW initialization complete.
+[17-07-2017 01:59:38]    Creating window
+[17-07-2017 01:59:38]    Created window
+[17-07-2017 01:59:38]    Initializing GLEW.
+[17-07-2017 01:59:38]    GLEW initialization complete.
+[17-07-2017 01:59:38]    WARNING: MVP position matrix position is not strictly positive.
+[17-07-2017 01:59:38]    Loading texture uniforms: 
+[17-07-2017 01:59:38]    :colorTexture:
+[17-07-2017 01:59:38]    WARNING: MVP position matrix position is not strictly positive.
+[17-07-2017 01:59:40]    Stopping Renderer
+[17-07-2017 01:59:40]    Breaking Out.
+[17-07-2017 01:59:40]    Renderer stopped
+[17-07-2017 01:59:40]    Log Closed

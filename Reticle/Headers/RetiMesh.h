@@ -39,7 +39,7 @@ public:
     RetiMesh(const float* vertData, const int vSize, const unsigned int* tris, const int tSize, RetiMaterial* mat = new RetiMaterial());
     RetiMesh(const RetiMesh& other);
     ~RetiMesh();
-    RetiMesh& operator=(const RetiMesh &);
+    RetiMesh& operator=(const RetiMesh &) = delete;
 
     // Initialize OpenGL
     void loadMesh();

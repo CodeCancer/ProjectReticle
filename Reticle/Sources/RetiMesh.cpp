@@ -64,14 +64,8 @@ RetiMesh::~RetiMesh()
 {
     if(is_loaded)
         RetiLog::logln("WARNING: Deleting Mesh before unloading data from gpu!");
-    delete[] vertex_data;
+    delete[] vertex_data;  /// DOUBLE_FREE
     delete[] triangle;
-}
-
-RetiMesh& RetiMesh::operator=(const RetiMesh& other)
-{
-    RetiMesh* pCpy = new RetiMesh(other);
-    return *pCpy;
 }
 
 void RetiMesh::loadMesh()
