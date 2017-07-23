@@ -53,7 +53,7 @@ RetiTexture::RetiTexture(string path)
     wrap_s = RETI_TEXWRAP_MIRROR;
     wrap_t = RETI_TEXWRAP_MIRROR;
     texture_unit = GL_TEXTURE0;
-    load_texture_from_file(RetiRenderer::getReticleRootDirectory() + path);
+    load_texture_from_file(path);
 }
 
 RetiTexture::RetiTexture(string path, RetiTextureFilterMode fmode, RetiMipmapFilterMode mmode,
@@ -66,7 +66,7 @@ RetiTexture::RetiTexture(string path, RetiTextureFilterMode fmode, RetiMipmapFil
     texture_unit = GL_TEXTURE0 + bind_location;
     if(bind_location > 15)
         RetiLog::logln("WARNING: Support for bind locations above 15 is platform dependent.");
-    load_texture_from_file(RetiRenderer::getReticleRootDirectory() + path);
+    load_texture_from_file(path);
 }
 
 RetiTexture::RetiTexture(const RetiTexture& other)
